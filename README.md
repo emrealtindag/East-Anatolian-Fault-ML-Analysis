@@ -1,5 +1,7 @@
 # 🌍 Seismic Risk Analysis: East Anatolian Fault Zone
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrealtindag/East-Anatolian-Fault-ML-Analysis/blob/main/Earthquake_Analysis.ipynb)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
@@ -14,6 +16,14 @@ This project applies **Supervised Machine Learning** techniques to analyze real-
 > "Eğitim sürecinde sadece dersleri izleyip teorik kavramları öğrenmekle kalmayıp, bu bilgileri **ülkemizin en kritik gerçeklerinden biri olan deprem sorunu** üzerine uygulamayı hedefledim. Bu amaçla, sentetik veri setleri yerine **AFAD**'ın sağladığı gerçek deprem kataloglarını kullanarak Doğu Anadolu Fay Hattı'nı analiz ettim."
 >
 > *(Translation: Beyond learning theoretical concepts, I aimed to apply this knowledge to one of my country's most critical realities: the earthquake problem. Therefore, I analyzed the East Anatolian Fault Line using real data provided by AFAD instead of synthetic datasets.)*
+
+## ⚠️ Limitations & Future Improvements
+While this project successfully applies fundamental ML concepts, it is intended for **educational purposes** and has certain limitations:
+
+* **Model Simplicity:** The current model uses a **Univariate** approach (only Depth → Magnitude). In reality, earthquake magnitude depends on multiple complex factors like fault type, soil structure, and stress accumulation.
+* **Feature Engineering:** Coordinates (`Latitude`, `Longitude`) were used for visualization but not fully integrated as weighted features in the regression model.
+* **Class Imbalance:** Major earthquakes are rare events. The Logistic Regression model might be biased towards the majority class ("Minor Earthquakes").
+* **Future Work:** In upcoming iterations, I plan to implement **Random Forest** or **Neural Networks** to capture non-linear relationships and handle class imbalance.
 
 ## 🛠️ Tech Stack
 * **Python:** Core programming language.
@@ -53,5 +63,6 @@ Before modeling, I visualized the coordinates (`Latitude`, `Longitude`) to confi
 3.  **Run the Notebook:**
     Open `Earthquake_Analysis.ipynb` in Jupyter Notebook or Google Colab.
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrealtindag/East-Anatolian-Fault-ML-Analysis/blob/main/Earthquake_Analysis.ipynb)
+
 ---
 *Created by [Emre Altındağ](https://www.linkedin.com/in/emrealtindag1/)*
