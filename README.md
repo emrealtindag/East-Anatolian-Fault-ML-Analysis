@@ -44,7 +44,7 @@ Before modeling, I visualized the coordinates (`Latitude`, `Longitude`) to confi
 ## 🚀 How to Run
 1.  **Clone the repository:**
     ```bash
-    git clone [East-Anatolian-Fault-ML-Analysis](https://github.com/emrealtindag/East-Anatolian-Fault-ML-Analysis)
+    git clone [https://github.com/emrealtindag/East-Anatolian-Fault-ML-Analysis.git](https://github.com/emrealtindag/East-Anatolian-Fault-ML-Analysis.git)
     ```
 2.  **Install dependencies:**
     ```bash
@@ -52,6 +52,6 @@ Before modeling, I visualized the coordinates (`Latitude`, `Longitude`) to confi
     ```
 3.  **Run the Notebook:**
     Open `Earthquake_Analysis.ipynb` in Jupyter Notebook or Google Colab.
-
+    
 ---
 *Created by [Emre Altındağ](https://www.linkedin.com/in/emrealtindag1/)*
