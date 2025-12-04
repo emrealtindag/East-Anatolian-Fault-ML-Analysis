@@ -52,6 +52,6 @@ Before modeling, I visualized the coordinates (`Latitude`, `Longitude`) to confi
     ```
 3.  **Run the Notebook:**
     Open `Earthquake_Analysis.ipynb` in Jupyter Notebook or Google Colab.
-    
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrealtindag/East-Anatolian-Fault-ML-Analysis/blob/main/Earthquake_Analysis.ipynb)
 ---
 *Created by [Emre Altındağ](https://www.linkedin.com/in/emrealtindag1/)*
